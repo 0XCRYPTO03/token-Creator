@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <!-- <h1 text-3xl font-bold underline>AutoToken</h1> -->
+    <h1 text-3xl font-bold underline>AutoToken</h1>
     <p >The easiest way to create your ERC20, ERC721 and ERC1155 Token without any line of code!</p>
-    <button @click="login">Get Started</button>
+    <button @click="login">Get Started without any codebase</button>
   </div>
 </template>
 
