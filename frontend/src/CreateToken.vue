@@ -9,8 +9,8 @@
     </div>
     
     <div class="container mx-auto px-4 md:px-12 padding-bottom-full" >
-      <div class="fade" v-if="isLoading"></div>
-      <div class="loading" v-if="isLoading"></div>
+      <!-- <div class="fade" v-if="isLoading"></div>
+      <div class="loading" v-if="isLoading"></div> -->
       <label for="tokenname" class="block text-sm font-medium text-gray-700">Token Name*</label>
       <div class="mt-1 relative rounded-md shadow-sm">
         <input type="text" name="tokenname" id="tokenname" v-model="name" class="block w-full pl-7 pr-12 sm:text-sm rounded-md" />
