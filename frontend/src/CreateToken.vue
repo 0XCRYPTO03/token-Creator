@@ -22,11 +22,11 @@
       </div>
 
       <label for="tokentype" class="block text-sm font-medium text-gray-700">Token Type*</label>
-      <select id="tokentype" name="tokentype" @change="changeTokenType($event)" class="block w-full pl-7 pr-12 sm:text-sm rounded-md">
+      <!-- <select id="tokentype" name="tokentype" @change="changeTokenType($event)" class="block w-full pl-7 pr-12 sm:text-sm rounded-md">
         <option value="ERC20">ERC20</option>
         <option value="ERC721">ERC721</option>
         <option value="ERC1155">ERC1155</option>
-      </select>
+      </select> -->
 
       <label for="tokenuri" class="block text-sm font-medium text-gray-700" v-if="tokenType == erc1155">Token Uri*</label>
       <div class="mt-1 relative rounded-md shadow-sm" v-if="tokenType == erc1155">
